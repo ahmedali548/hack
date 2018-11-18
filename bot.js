@@ -14,19 +14,19 @@ var x_x = "Hack" //هنا تحط الامر اللي يشغل الهاك
 
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setAvatar(`https://cdn.discordapp.com/attachments/435763332461625354/436093452602703882/Anonymus.png`)
+  client.user.setAvatar(`https://media.discordapp.net/attachments/507299296706560018/513549732161781760/41684520_10156662845789938_6152439041183711232_n.jpg?width=270&height=270`)
 
  }
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setUsername("Done Hack")
+  client.user.setUsername("ImNotEzzz")
 
  }
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setGame(`Done Hack`, 'https://www.twitch.tv/hix')
+  client.user.setGame(`ان الله لا ينسى`, 'https://www.twitch.tv/hix')
 
  }
 });
