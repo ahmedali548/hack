@@ -1130,25 +1130,6 @@ client.on('message', message => {
           
     
      
-	 
-	 
-	
-
-	
-	
-	
-client.on('ready', () => {
-    console.log(`[Start] ${new Date()}`);
-    console.log(`[INFO] ${client.user.username}`)
-    console.log(`[INFO] ${client.users.size}`)
-    console.log(`[INFO] ${client.guilds.size}`)
-    console.log(`[BOT] Auto Role `)
-});
-
-client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Gang Hell'));
-});
-
 
 
 
