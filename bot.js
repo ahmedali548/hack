@@ -49,7 +49,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'الرابط') {
-    msg.reply('https://discord.gg/srp7N7z');
+    msg.reply('https://discord.gg/Wkbeaya');
   }
 });
 
@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!') {
-              message.channel.send('**#Welcome To Arab sultans Hell...:tada::tada:**');
+              message.channel.send('https://media.discordapp.net/attachments/524980673178632193/526447113404416019/51.png?width=180&height=180');
               message.channel.sendFile("./photoshop.PNG");
                
 
@@ -71,11 +71,11 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'الشعار') {
-              message.channel.send('شعارك بل دسكورد   **! AS**');
+              message.channel.send('شعارك بل دسكورد   **! GH**');
 			  
 			  
 						
-			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝓐𝓼**');
+			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝕲𝓗**');
               message.channel.sendFile("./photoshop.PNG");
                
 
@@ -325,7 +325,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Arab'));
+member.addRole(member.guild.roles.find('name', 'Gang Hell'));
 });
 
 
@@ -764,7 +764,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`AS For Ever`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`GH For Ever`,"http://twitch.tv/y04zgamer")
    client.user.setStatus("dnd")
 });
 
@@ -999,7 +999,7 @@ client.on('guildMemberAdd', member => {
     invites[member.guild.id] = guildInvites;
     const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
     const inviter = client.users.get(invite.inviter.id);
-    const logChannel = member.guild.channels.find(channel => channel.name === "arab");
+    const logChannel = member.guild.channels.find(channel => channel.name === "gang");
     logChannel.send(`${member} Invited by: <@${inviter.id}>`);
   });
 });
