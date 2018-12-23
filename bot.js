@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!') {
-              message.channel.send('https://media.discordapp.net/attachments/524980673178632193/526447113404416019/51.png?width=180&height=180');
+              message.channel.send('');
               message.channel.sendFile("./photoshop.PNG");
                
 
