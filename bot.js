@@ -61,10 +61,8 @@ client.on('ready', () => {
             if (message.content === '!') {
               message.channel.send('#Welcome To Gang Hell...:tada::tada:');
               message.channel.sendFile("./photoshop.PNG");
-			  message.channel.send('https://media.discordapp.net/attachments/524979527634649139/526448917790064640/511.png?width=360&height=107');
-              message.channel.sendFile("./photoshop.PNG");
+		
                
-
 
             }
 });
