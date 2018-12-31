@@ -58,8 +58,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
          client.on('message', message => {
-            if (message.content === '!') {
-              message.channel.send('#Welcome To Gang Hell...:tada::tada:');
+            if (message.content === 'ترحيب') {
+              message.channel.send('**#Welcome To Gamg Hell...:tada::tada:**');
               message.channel.sendFile("./photoshop.PNG");
 		
                
