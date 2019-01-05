@@ -49,7 +49,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'الرابط') {
-    msg.reply('https://discord.gg/7Z6VDT');
+    msg.reply('https://discord.gg/E5dEWAu');
   }
 });
 
