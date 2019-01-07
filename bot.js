@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === ',') {
-              message.channel.send('**#Welcome To Gamg Hell...:tada::tada:**');
+              message.channel.send('**#Welcome To Gang Hell...:tada::tada:**');
               message.channel.sendFile("./photoshop.PNG");
 		
                
