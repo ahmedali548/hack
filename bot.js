@@ -799,14 +799,13 @@ client.on('message', message => {
 
 
 
+
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('530355275920703489').roles.find("name", "اسم الرتبه الا تبيها ملونه").setColor("rainbow");
+    client.guilds.get('530355275920703489').roles.find("name", "rainbow").setColor("RANDOM");
   };
   setInterval(lol, 1000);
 });
-
-
 
 
 
