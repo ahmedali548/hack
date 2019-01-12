@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === ',') {
-              message.channel.send('**#Welcome To Gang Hell...:tada::tada:**');
+              message.channel.send('**#Welcome To Devils Own...:tada::tada:**');
               message.channel.sendFile("./photoshop.PNG");
 		
                
@@ -72,7 +72,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'الشعار') {
-              message.channel.send('شعارك بل دسكورد   **! GH**');
+              message.channel.send('شعارك بل دسكورد   **! DO**');
 			  
 			  
 						
@@ -326,7 +326,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Gang Hell'));
+member.addRole(member.guild.roles.find('name', 'Devils Own'));
 });
 
 
@@ -754,7 +754,7 @@ client.on('guildMemberAdd', member => {
     invites[member.guild.id] = guildInvites;
     const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
     const inviter = client.users.get(invite.inviter.id);
-    const logChannel = member.guild.channels.find(channel => channel.name === "gang");
+    const logChannel = member.guild.channels.find(channel => channel.name === "devils");
     logChannel.send(`${member} Invited by: <@${inviter.id}>`);
   });
 });
