@@ -76,7 +76,7 @@ client.on('ready', () => {
 			  
 			  
 						
-			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝕲𝓗**');
+			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝔇𝒪**');
               message.channel.sendFile("./photoshop.PNG");
                
 
