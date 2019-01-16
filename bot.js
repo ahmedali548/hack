@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === ',') {
-              message.channel.send('**#Welcome To Devils Own...:tada::tada:**');
+              message.channel.send('**#Welcome To Demons of Hell...:tada::tada:**');
               message.channel.sendFile("./photoshop.PNG");
 		
                
@@ -72,11 +72,11 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'الشعار') {
-              message.channel.send('شعارك بل دسكورد   **! DO**');
+              message.channel.send('شعارك بل دسكورد   **! DH**');
 			  
 			  
 						
-			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝔇𝒪**');
+			  message.channel.send('شعارك بل اللعبة   **𝓓ℏ⤦**');
               message.channel.sendFile("./photoshop.PNG");
                
 
@@ -326,7 +326,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Devils Own'));
+member.addRole(member.guild.roles.find('name', 'Demons of hell'));
 });
 
 
@@ -754,7 +754,7 @@ client.on('guildMemberAdd', member => {
     invites[member.guild.id] = guildInvites;
     const invite = guildInvites.find(i => ei.get(i.code).uses < i.uses);
     const inviter = client.users.get(invite.inviter.id);
-    const logChannel = member.guild.channels.find(channel => channel.name === "devils");
+    const logChannel = member.guild.channels.find(channel => channel.name === "chat");
     logChannel.send(`${member} Invited by: <@${inviter.id}>`);
   });
 });
