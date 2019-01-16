@@ -318,20 +318,6 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
 
 
 
-client.on('ready', () => {
-    console.log(`[Start] ${new Date()}`);
-    console.log(`[INFO] ${client.user.username}`)
-    console.log(`[INFO] ${client.users.size}`)
-    console.log(`[INFO] ${client.guilds.size}`)
-    console.log(`[BOT] Auto Role `)
-});
-
-client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name', 'Demons of hell'));
-});
-
-
-
 
 
 
