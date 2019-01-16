@@ -317,6 +317,17 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
 
 
 
+client.on('ready', () => {
+    console.log(`[Start] ${new Date()}`);
+    console.log(`[INFO] ${client.user.username}`)
+    console.log(`[INFO] ${client.users.size}`)
+    console.log(`[INFO] ${client.guilds.size}`)
+    console.log(`[BOT] Auto Role `)
+});
+
+client.on('guildMemberAdd', (member) => {
+member.addRole(member.guild.roles.find('name', 'Demons of hell'));
+});
 
 
 
@@ -786,7 +797,7 @@ client.on('message', message => {
 
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('530355275920703489').roles.find("name", "Rainbow").setColor("RANDOM");
+    client.guilds.get('527622532715773962').roles.find("name", "Rainbow").setColor("RANDOM");
   };
   setInterval(lol, 1000);
 });
