@@ -317,6 +317,7 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
 
 
 
+
 client.on('ready', () => {
     console.log(`[Start] ${new Date()}`);
     console.log(`[INFO] ${client.user.username}`)
@@ -328,8 +329,6 @@ client.on('ready', () => {
 client.on('guildMemberAdd', (member) => {
 member.addRole(member.guild.roles.find('name', 'Demons of hell'));
 });
-
-
 
 
 
